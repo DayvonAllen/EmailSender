@@ -103,7 +103,7 @@ let transporter = nodemailer.createTransport({
 
 mailOptions = {
   from: user,
-  to: 'darkwingunther@gmail.com',
+  to: 'test@gmail.com',
   subject: `${finalName}, we've received your message`,
   text: `${finalName}, thank you for reaching out to us. We will respond soon.`
 }
